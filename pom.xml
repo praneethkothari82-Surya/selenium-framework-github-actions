@@ -28,6 +28,7 @@
     <junit.version>5.12.2</junit.version>
     <cucumber.version>7.22.1</cucumber.version>
     <allure.version>2.29.1</allure.version>
+    <allure.maven.version>3.1.0</allure.maven.version>
     <jacoco.version>0.8.12</jacoco.version>
     <surefire.version>3.2.5</surefire.version>
     <jackson.version>2.18.2</jackson.version>
@@ -204,7 +205,7 @@
       <plugin>
         <groupId>io.qameta.allure</groupId>
         <artifactId>allure-maven</artifactId>
-        <version>${allure.version}</version>
+        <version>${allure.maven.version}</version>
         <configuration>
           <resultsDirectory>${project.build.directory}/allure-results</resultsDirectory>
         </configuration>
